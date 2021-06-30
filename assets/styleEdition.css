@@ -1,8 +1,14 @@
+:root {
+    --C23: #232323;
+    --white: #ffffff;
+  }
+
+
 .img-item{
     object-fit: contain;
 }
 .main{
-    width: 50%;
+    width: 53%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -49,4 +55,9 @@
 }
 .color_green{
     color:green
+}
+.title{
+    font-size: 1.25rem;
+    margin: 1rem 0 2.25rem 0;
+    color: var(--C23);
 }

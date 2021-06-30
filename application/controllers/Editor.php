@@ -5,9 +5,16 @@ class Editor extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('editor/editor_view');
+		// $this->load->view('template/header');
+		$this->load->view('editor/post_demo');
+		// $this->load->view('template/footer');
 	}
 
+
+	public function demo()
+	{
+		$this->load->view('editor/editor_view');
+	}
 
 	public function post(){
 		$data['post'] = $this->editor_model->fetch();

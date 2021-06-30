@@ -1,7 +1,8 @@
 window.addEventListener('load', function () {
     var editor;
     ContentTools.StylePalette.add([
-        new ContentTools.Style('lead', 'lead', ['p']),
+        new ContentTools.Style('lead', 'lead', ['h1', 'h2', 'h3', 'h4', 'p']),
+        new ContentTools.Style('title', 'title', ['p']),
         new ContentTools.Style('h4_editor', 'h4_editor', ['h4']),
         new ContentTools.Style('h4_editor', 'h4_editor', ['h1']),
         new ContentTools.Style('h4_editor', 'h4_editor', ['h2']),
