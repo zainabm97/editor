@@ -12,8 +12,8 @@ window.addEventListener('load', function () {
         new ContentTools.Style('block-editor', 'block-editor', ['blockquote']),
         new ContentTools.Style('img-right', 'img-right', ['img']),
         new ContentTools.Style('img-left', 'img-left', ['img']),
-        new ContentTools.Style('color_red', 'color_red', ['h1','h2','h3','h4','p']),
-        new ContentTools.Style('color_green', 'color_green', ['h1','h2','h3','h4','p']),
+        new ContentTools.Style('color_red', 'color_red', ['h1', 'h2', 'h3', 'h4', 'p']),
+        new ContentTools.Style('color_green', 'color_green', ['h1', 'h2', 'h3', 'h4', 'p']),
     ]);
 
 });
@@ -78,7 +78,10 @@ editor.addEventListener('saved', function (ev) {
         success: function (data) {
             new ContentTools.FlashUI('ok');
             editor.busy(false);
-            console.log(data);
+            // console.log(data);
+            setTimeout(function () {
+                window.location.href = base_url + 'post';
+            }, 2000);
         },
         error: function (xhr, status, error) {
             new ContentTools.FlashUI('no');
