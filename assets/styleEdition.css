@@ -1,0 +1,52 @@
+.img-item{
+    object-fit: contain;
+}
+.main{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.block-editor{
+    background-color: #dbdee2;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.heading-editor{
+    text-align: right;
+}
+.img-right{
+    display: inline-block;
+    float: right;
+    padding: 19px;
+}
+.editor-list{
+    margin: 61px;
+    padding: 25px;
+    font-size: 20px;
+}
+.head_title{
+    color: black;
+    text-align: center;
+    padding: 13px;
+    font-weight: 900;
+    background-color: #CCCDC8;
+    border-radius: 23px;
+}
+.img-left{
+    display: inline-block;
+    float: left;
+    padding: 19px;
+}
+.h4_editor{
+    background-color: #3b4d61;
+    color: white;
+    text-align: center;
+    padding: 36px;
+}
+.color_red{
+    color:red;
+}
+.color_green{
+    color:green
+}
