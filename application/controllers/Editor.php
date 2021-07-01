@@ -6,8 +6,13 @@ class Editor extends CI_Controller {
 	public function index()
 	{
 		// $this->load->view('template/header');
-		$this->load->view('editor/post_demo');
+		$this->load->view('editor/add_post');
 		// $this->load->view('template/footer');
+	}
+	
+	public function edit(){
+
+		$this->load->view('editor/post_demo');
 	}
 
 

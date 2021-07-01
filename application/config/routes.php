@@ -54,3 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['post'] = 'editor/post';
+$route['demo'] = 'editor/demo';
+$route['edit'] = 'editor/edit';

@@ -6,7 +6,7 @@
 
 <head>
     <!-- Page title -->
-    <title>Sandbox - Content flow</title>
+    <title>editor</title>
 
     <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -36,9 +36,9 @@
 <body style="background-color:#f0f0f0;">
     <div class="content-snippet" data-cf-snippet="1" data-cf-snippet-permanent>
 
-        <h4 class="align-center h4_editor  mbr-fonts-style display-4" style="">
+        <!-- <h4 class="align-center h4_editor  mbr-fonts-style display-4" style="">
             This Is Demo Post For Editor Clarification
-        </h4>
+        </h4> -->
     </div>
 
     <main id="content" data-editable data-name="main-content" class="">
@@ -48,7 +48,7 @@
                 الأدب العربي في العصر الحديث
             </h4>
         </div> -->
-        <article id="check" class="main">
+        <article id="check" class="main post_contenair">
             <section class="article__body" data-cf-flow="article-body" data-cf-flow-label="Body"
                 data-cf-flow-max-snippets="2" data-cf-flow-frozen>
                 <div class="content-snippet" data-cf-snippet="1" data-cf-snippet-permanent>

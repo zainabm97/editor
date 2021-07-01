@@ -1,8 +1,8 @@
 window.addEventListener('load', function () {
     var editor;
     ContentTools.StylePalette.add([
-        new ContentTools.Style('lead', 'lead', ['h1', 'h2', 'h3', 'h4', 'p']),
-        new ContentTools.Style('title', 'title', ['p']),
+        new ContentTools.Style('lead', 'lead', ['p']),
+        new ContentTools.Style('title', 'title', ['h1', 'h2', 'h3', 'h4', 'p']),
         new ContentTools.Style('h4_editor', 'h4_editor', ['h4']),
         new ContentTools.Style('h4_editor', 'h4_editor', ['h1']),
         new ContentTools.Style('h4_editor', 'h4_editor', ['h2']),
@@ -15,6 +15,17 @@ window.addEventListener('load', function () {
         new ContentTools.Style('img-left', 'img-left', ['img']),
         new ContentTools.Style('color_red', 'color_red', ['h1', 'h2', 'h3', 'h4', 'p']),
         new ContentTools.Style('color_green', 'color_green', ['h1', 'h2', 'h3', 'h4', 'p']),
+        new ContentTools.Style('table', 'table', ['table']),
+        new ContentTools.Style('thead-dark', 'thead-dark', ['thead']),
+        new ContentTools.Style('thead-light', 'thead-light', ['thead']),
+        new ContentTools.Style('table-hover', 'table-hover', ['table']),
+        new ContentTools.Style('table-bordered', 'table-bordered', ['table']),
+        new ContentTools.Style('table-striped', 'table-striped', ['table']),
+        new ContentTools.Style('bg-primary', 'bg-primary', ['tr','td']),
+        new ContentTools.Style('bg-success', 'bg-success', ['tr','td']),
+        new ContentTools.Style('bg-warning', 'bg-warning', ['tr','td']),
+        new ContentTools.Style('bg-danger', 'bg-danger', ['tr','td']),
+        new ContentTools.Style('bg-info', 'bg-info', ['tr','td']),
     ]);
 
 });

@@ -57,7 +57,12 @@
     color:green
 }
 .title{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin: 1rem 0 2.25rem 0;
     color: var(--C23);
+}
+.post_contenair{
+    margin-top: 100px;
+    border: 1px solid #e2dedeee;
+    padding: 20px;
 }
